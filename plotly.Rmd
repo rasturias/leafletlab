@@ -1,0 +1,23 @@
+---
+title: "Week3Assigment"
+author: "Ramiro Asturias"
+date: "October 25, 2016"
+output: slidy_presentation
+---
+
+## Week 3 Assignment
+
+- Ramiro Asturias
+- October 26, 2016
+
+## Plotly plot Example
+
+```{r error=FALSE, message=FALSE, warning=FALSE}
+library(plotly)
+
+p <- plot_ly(economics, type="scatter",mode = 'lines', x = ~date, y = ~unemploy / pop)
+
+p
+```
+
+## Thanks
